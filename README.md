@@ -15,6 +15,10 @@
     * modelyear: the release year of the car (2015,2005,1994)
     * manufacturer: the make of the car (Toyota, Honda, BMW)
     * model: the model of the car (Camry, Civic, X6)
+#### Tests
+    I wrote some test suites to evaluate the following three scenarios and some other code parts.
+    I used Jest and Supertest libraries (both are in devDependencies).
+    You can run all the suites with command: npm run test
 #### Scenario 1
     GET http://<host>:<port>/vehicles/<modelyear>/<manufacturer>/<model>
 
