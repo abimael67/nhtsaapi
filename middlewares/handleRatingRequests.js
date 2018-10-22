@@ -1,5 +1,4 @@
 const nhtsa = require('../apis/nhtsa')
-const objectManipulation = require('../util/objectManipulation')
 const formatJSON = require('../util/formatOuput')
  function ratingHandler (req, res, next){
    
