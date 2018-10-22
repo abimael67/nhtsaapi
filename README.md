@@ -2,9 +2,13 @@
  Enhanced NHTSA API for query cars crashing tests
 
 ## Installation instructions
-    1- Git clone https://github.com/abimael67/nhtsaapi.git
+    1- Run git clone https://github.com/abimael67/nhtsaapi.git
     2- Run 'npm install' in the terminal
     3- Run 'npm start'
+
+    Note: The server will listen to the 'process.env.PORT' by default. If this variable is not supplied it will listen to 3000.
+    You always can change the 'process.env.PORT' setting it before running 'npm start', like this:
+    PORT=<another port> npm start
 
 ## Usage
 #### Legend
