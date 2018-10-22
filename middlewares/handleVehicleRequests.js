@@ -1,8 +1,7 @@
 const nhtsa = require('../apis/nhtsa')
 const objectManipulation = require('../util/objectManipulation')
 module.exports = (req, res, next)=>{
-    let model, manufacturer, modelyear  
-    req.query = objectManipulation.objectKeysToLowerCase(req.query)    
+    let model, manufacturer, modelyear         
     req.body = objectManipulation.objectKeysToLowerCase(req.body) 
     req.data = [] 
     switch (req.method) {        
